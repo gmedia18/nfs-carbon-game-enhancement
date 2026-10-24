@@ -1,0 +1,15 @@
+# Do not edit manually
+*.jpg binary
+
+*.md linguist-documentation
+vendor/* linguist-vendored 
+
+* text=auto eol=lf
+*.svg text
+
+public/*.html linguist-vendored
+
+app/*.tsx linguist-detectable
+*.tsx linguist-detectable
+*.sh text eol=lf
+*.html linguist-vendored
